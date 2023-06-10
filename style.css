@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 700px;
+
+}
+
+.img {
+    float: left;
+    height: 200px;
+    margin: 1%;
+    width: 22.5%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.ig1 {
+    background-image: url(bmw1.jpg);
+}
+
+.ig2 {
+    background-image: url(bmw-m5-competition-ai-01.jpg.asset.1614874350020.jpg);
+}
+
+.ig3 {
+    background-image: url(bmw3.jpg);
+}
+
+.ig4 {
+    background-image: url(bmw4.jpg);
+}
+
+.ig5 {
+    background-image: url(bmw5.jpg);
+
+}
+
+.ig6 {
+    background-image: url(bmw6.jpg);
+}
+
+.ig7 {
+    background-image: url(bmw\ 7.jpg);
+}
+
+.ig8 {
+    background-image: url(bmw8.jpg);
+}
+
+#date {
+    letter-spacing: 2px;
+    color: darkgray;
+
+}
+
+.info {
+    margin-left: 10px;
+    border-left: 4px black solid;
+    padding-left: 10px;
+}
+
+.sekil {
+ position:relative;
+ width: 100%;
+ height: 400px;
+ background-image: url(headq2.jpg);
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+
+}
+
+ .footer {
+    background: slateblue ;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+
+
+.img:hover {
+    scale: 0.8;
+    transition: 0.3s;
+}
+
+.ad {
+    background-color: gray;
+    opacity: 0;
+    scale: 0.1;
+    height: 200px;
+    width: 100%;
+    color: white;
+
+
+
+}
+
+.ad:hover {
+    scale: 1;
+    transition: 0.4s;
+    background-color: black;
+    opacity: 0.7;
+
+
+}
+
+
+
